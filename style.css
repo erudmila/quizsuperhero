@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+  background-color: #add8e6;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.quiz-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Question Section */
+.question {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.input-field,
+.dropdown {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Button Styles */
+.submit-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+/* Result Section */
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e6f7ff;
+  border: 1px solid #b3e5fc;
+  border-radius: 5px;
+  display: none;
+}
+
+.result h2 {
+  margin: 0 0 10px;
+  color: #005073;
+}
+
+.result-text {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Quiz Counter */
+.counter {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
