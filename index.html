@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Type of Superhero Are You?</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>What Type of Superhero Are You?</h1>
+
+    <div class="question">
+      <label for="name">What is your name?</label><br>
+      <input type="text" id="name" placeholder="Enter your name" class="input-field">
+    </div>
+
+    <div class="question">
+      <label for="creativity">How do you like to express yourself creatively?</label><br>
+      <input
+        type="text"
+        id="creativity"
+        placeholder="e.g., Writing, Drawing, Music, Problem-solving"
+        class="input-field"
+      >
+    </div>
+
+    <div class="question">
+      <label for="process">What is your process like when starting a new project?</label><br>
+      <select id="process" class="dropdown">
+        <option value="1">Plan everything first</option>
+        <option value="2">Dive right in</option>
+        <option value="3">Do some research</option>
+        <option value="4">Collaborate with others</option>
+      </select>
+    </div>
+
+    <button class="submit-btn">Find Your Superhero Type</button>
+
+    <div class="result">
+      <h2>Your Superhero Result:</h2>
+      <p class="result-text"></p>
+    </div>
+
+    <div class="counter">This quiz has been taken 0 times</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
